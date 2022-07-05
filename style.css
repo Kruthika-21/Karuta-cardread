@@ -1,0 +1,116 @@
+body{
+    height: 100vh;
+    background: -webkit-linear-gradient(left,  red 0%,#950101 50%,#3D0000 75%, black 100%);
+    /*background: linear-gradient(
+        to right,
+        red 0%,
+        red 25%
+        #950101 25%,
+        #950101 50%,
+        #3D0000 50%,  
+        #3D0000 75%,
+        black 75%,
+        black 100%
+    );*/
+
+
+}
+p{
+    top: 150px;
+    color:white;
+    font-family: 'Prata', serif;
+    text-shadow: 4px 4px 5px black;
+}
+h2{
+    color: white;
+    font-size: 1.9cm;
+    text-shadow: 4px 4px 5px black;
+}
+#Heading{
+    height: 200px;
+    max-width: 1700px;
+    padding-top: 10px; /* Location of the box */
+    left: 0;
+    top: 0;
+    
+    /*border-bottom: 5px solid rgb(44, 13, 13);;*/
+    font-family: 'Prata', serif;
+}
+img {
+
+  display: block;
+  margin-top: relative;
+  margin-left: auto;
+  margin-right: auto;
+
+  width:  200px;
+  height: 290px;
+  -webkit-filter: drop-shadow(5px 5px 5px black);
+ filter: drop-shadow(5px 5px 5px black);
+
+}
+
+#TEXT{
+    position: relative;
+    top:43px
+}
+#button3  {
+    display: inline-block;
+    position:absolute;
+    left: 840px;
+    /* additional code */
+    }
+    #button1{
+        position:absolute;
+        left: 590px;
+      
+    }
+    #button2{
+        display: inline-block;
+        position:absolute;
+        left: 720px;
+      
+    }
+/* CSS */
+.button-27 {
+ 
+  appearance: none;
+  background-color:black;
+  border: 1px solid #1A1A1A;
+  border-radius: 15px;
+  box-sizing: border-box;
+  color: white;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Roobert,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+  font-size: 12px;
+  font-weight: 600;
+  line-height: normal;
+  margin: 0;
+  min-height: 50px;
+  min-width: 0;
+  outline: none;
+  padding: 16px 24px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 6%;
+  will-change: transform;
+}
+/*window.location.reload(true)*/
+.button-27:disabled {
+  pointer-events: none;
+}
+
+.button-27:hover {
+  box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+  transform: translateY(-2px);
+}
+
+.button-27:active {
+  box-shadow: none;
+  transform: translateY(0);
+}
